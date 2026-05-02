@@ -1,47 +1,10 @@
-# MLOps on AWS – Course Labs
+# mlops-on-aws
 
-This repository contains all code and infrastructure definitions for the Practical MLOps on AWS course.
+Hands-on labs, Terraform, and SageMaker workflows for **Practical MLOps on AWS**.
 
-**Public clone URL:** https://github.com/gjkaur/mlops-on-aws.git
+| Document | Audience | Purpose |
+|----------|----------|---------|
+| [COURSE_OVERVIEW.md](COURSE_OVERVIEW.md) | Students & anyone using the labs | Prerequisites, repo layout, clone & quick start, lab navigation |
+| [INSTRUCTOR_SETUP_GUIDE.md](INSTRUCTOR_SETUP_GUIDE.md) | Instructors & maintainers | How the repository is structured, scaffolding steps, participant packaging |
 
-## Repository Structure
-
-| Folder | Purpose |
-|--------|---------|
-| `labs/` | Lab-specific code and infrastructure |
-| `shared/` | Reusable modules and utilities |
-| `solutions/` | Completed solutions (instructors only) |
-
-## Prerequisites
-
-- Python 3.10+
-- AWS CLI configured
-- Terraform 1.7+
-- VS Code (recommended)
-
-## Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/gjkaur/mlops-on-aws.git
-cd mlops-on-aws
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-## Lab Navigation
-
-Each lab folder contains:
-
-- `infrastructure/` – Terraform code for AWS resources
-- `scripts/` – Python scripts for training, deployment, monitoring
-- `README.md` – Lab instructions
-
-Start with [Lab 1](labs/lab1-first-training/README.md).
-
-Instructor scaffolding steps for this repo live in [`step1.md`](step1.md).
+Public clone URL: https://github.com/gjkaur/mlops-on-aws.git
