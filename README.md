@@ -15,6 +15,8 @@ git remote add origin https://github.com/gjkaur/mlops-on-aws.git
 git push -u origin main
 ```
 
+A second commit pushed the full instructor outline from this workspace: `git add step1.md`, `git commit -m "Add instructor setup guide (step1.md)"`, `git push`.
+
 **Remote:** https://github.com/gjkaur/mlops-on-aws.git  
 **Default branch:** `main`
 
