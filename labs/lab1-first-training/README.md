@@ -15,6 +15,10 @@
 | `scripts/train.py` | Training script (runs inside SageMaker) |
 | `scripts/run_training.py` | Launches SageMaker training job |
 
-## Step-by-Step Instructions
+## Participant lab guide
 
-See the participant lab guide for detailed steps.
+**Full instructions:** [`participant/PARTICIPANT_LAB_GUIDE.md`](participant/PARTICIPANT_LAB_GUIDE.md) (also see [`participant/README.md`](participant/README.md))
+
+## Step-by-Step Instructions (summary)
+
+Follow the participant guide linked above—it covers clone paths, Terraform, training, metrics, cleanup, and troubleshooting.
