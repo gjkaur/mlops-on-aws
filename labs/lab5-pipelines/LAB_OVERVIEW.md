@@ -15,6 +15,11 @@ Module **5 – CI/CD** · **`us-east-1`** · about **90 minutes** · intermediat
 - [Lab 00](../../participant/lab0-environment-setup/PARTICIPANT_LAB_GUIDE.md) (AWS CLI configured)  
 - Repo root **`pip install -r requirements.txt`**
 
+## Participant walkthrough
+
+- **[participant/lab5-pipelines/PARTICIPANT_LAB_GUIDE.md](../../participant/lab5-pipelines/PARTICIPANT_LAB_GUIDE.md)** — hands-on Markdown for learners  
+- **[participant/lab5-pipelines/LAB5_PARTICIPANT_INDEX.md](../../participant/lab5-pipelines/LAB5_PARTICIPANT_INDEX.md)** — folder cheat sheet  
+
 ## Layout
 
 | Path | Purpose |
