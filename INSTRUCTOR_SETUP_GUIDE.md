@@ -11,8 +11,11 @@ mlops-on-aws/
 │   ├── lab0-environment-setup/
 │   │   ├── LAB0_PARTICIPANT_INDEX.md
 │   │   └── PARTICIPANT_LAB_GUIDE.md
-│   └── lab1-first-training/
-│       ├── LAB1_PARTICIPANT_INDEX.md
+│   ├── lab1-first-training/
+│   │   ├── LAB1_PARTICIPANT_INDEX.md
+│   │   └── PARTICIPANT_LAB_GUIDE.md
+│   └── lab2-feature-store/
+│       ├── LAB2_PARTICIPANT_INDEX.md
 │       └── PARTICIPANT_LAB_GUIDE.md
 ├── labs/
 │   ├── lab0-environment-setup/

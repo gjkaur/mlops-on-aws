@@ -17,6 +17,11 @@ Work with SageMaker Feature Store:
 
 Complete [Lab 00](../../participant/lab0-environment-setup/PARTICIPANT_LAB_GUIDE.md). Your IAM identity needs permissions for SageMaker Feature Store APIs, Athena, Glue, and S3 (your instructor configures the sandbox).
 
+## Participant lab guide
+
+- **[PARTICIPANT_LAB_GUIDE.md](../../participant/lab2-feature-store/PARTICIPANT_LAB_GUIDE.md)** — step-by-step (Terraform, scripts, cleanup)  
+- **[LAB2_PARTICIPANT_INDEX.md](../../participant/lab2-feature-store/LAB2_PARTICIPANT_INDEX.md)** — folder index  
+
 ## Repo layout
 
 | Path | Purpose |

@@ -7,7 +7,8 @@ Hands-on labs, Terraform, and SageMaker workflows for **Practical MLOps on AWS**
 | [COURSE_OVERVIEW.md](COURSE_OVERVIEW.md) | Students & anyone using the labs | Prerequisites, repo layout, clone & quick start, lab navigation |
 | [Participant guides (index)](participant/PARTICIPANT_DOCUMENTATION_INDEX.md) | Students | Links to lab walkthrough Markdown under `participant/` |
 | [Lab 00 — participant guide](participant/lab0-environment-setup/PARTICIPANT_LAB_GUIDE.md) | Students (setup) | One-time AWS CLI and access key configuration |
-| [Lab 1 — participant guide](participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md) | Students (Lab 1) | Hands-on participant walkthrough |
+| [Lab 1 — participant guide](participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md) | Students (Lab 1) | SageMaker training walkthrough |
+| [Lab 2 — participant guide](participant/lab2-feature-store/PARTICIPANT_LAB_GUIDE.md) | Students (Lab 2) | Feature Store pipeline walkthrough |
 | [INSTRUCTOR_SETUP_GUIDE.md](INSTRUCTOR_SETUP_GUIDE.md) | Instructors & maintainers | How the repository is structured, scaffolding steps, participant packaging |
 
 Public clone URL: https://github.com/gjkaur/mlops-on-aws.git
