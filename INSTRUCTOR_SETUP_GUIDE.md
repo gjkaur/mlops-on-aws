@@ -8,10 +8,15 @@ mlops-on-aws/
 ├── requirements.txt
 ├── participant/
 │   ├── PARTICIPANT_DOCUMENTATION_INDEX.md
+│   ├── lab0-environment-setup/
+│   │   ├── LAB0_PARTICIPANT_INDEX.md
+│   │   └── PARTICIPANT_LAB_GUIDE.md
 │   └── lab1-first-training/
 │       ├── LAB1_PARTICIPANT_INDEX.md
 │       └── PARTICIPANT_LAB_GUIDE.md
 ├── labs/
+│   ├── lab0-environment-setup/
+│   │   └── LAB_OVERVIEW.md
 │   ├── lab1-first-training/
 │   │   ├── LAB_OVERVIEW.md
 │   │   ├── infrastructure/

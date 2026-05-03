@@ -1,5 +1,7 @@
 # Lab 1: First SageMaker Training Job
 
+> **Before starting:** Finish [Lab 00 — participant guide](../../participant/lab0-environment-setup/PARTICIPANT_LAB_GUIDE.md) so AWS CLI, access keys, and account ID are ready.
+
 ## What You Will Do
 
 - Deploy pre-written infrastructure code

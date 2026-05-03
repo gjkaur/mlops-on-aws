@@ -15,6 +15,7 @@ This repository contains all code and infrastructure definitions for the Practic
 
 ## Prerequisites
 
+- **[Lab 00](participant/lab0-environment-setup/PARTICIPANT_LAB_GUIDE.md) completed** — AWS CLI configured and account ID noted (provided desktop environment)
 - Python 3.10+
 - AWS CLI configured
 - Terraform 1.7+
@@ -45,6 +46,8 @@ Each lab folder typically contains:
 
 Participant walkthroughs: start at [`participant/PARTICIPANT_DOCUMENTATION_INDEX.md`](participant/PARTICIPANT_DOCUMENTATION_INDEX.md) (these live at repo root—not inside each lab folder).
 
-Start with [**Lab 1 overview**](labs/lab1-first-training/LAB_OVERVIEW.md). The full participant walkthrough is [**Lab 1 — participant guide**](participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md).
+Complete **[Lab 00 — participant guide](participant/lab0-environment-setup/PARTICIPANT_LAB_GUIDE.md)** first so your AWS CLI and account ID are ready.
+
+Then open [**Lab 0 overview**](labs/lab0-environment-setup/LAB_OVERVIEW.md), followed by [**Lab 1 overview**](labs/lab1-first-training/LAB_OVERVIEW.md) and [**Lab 1 — participant guide**](participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md).
 
 Instructor scaffolding steps (repo layout, file templates): [`INSTRUCTOR_SETUP_GUIDE.md`](INSTRUCTOR_SETUP_GUIDE.md).

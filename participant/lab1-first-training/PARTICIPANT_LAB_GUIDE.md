@@ -48,7 +48,7 @@ By the end of this lab, you will have:
 | --- | --- |
 | Virtual desktop (provided by instructor) | ✅ |
 | VS Code installed | ✅ |
-| AWS IAM access key and secret key (from Lab 00) | ✅ |
+| AWS IAM access key and secret key (from [Lab 00](../lab0-environment-setup/PARTICIPANT_LAB_GUIDE.md)) | ✅ |
 | All tools pre‑installed (Python, AWS CLI, Terraform, Git) | ✅ |
 
 > **You do NOT write any infrastructure or training code. All files are already provided in the repository.**
