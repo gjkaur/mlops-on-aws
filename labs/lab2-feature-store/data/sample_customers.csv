@@ -1,0 +1,6 @@
+customer_id,age,avg_monthly_spend,tenure_months,support_tickets
+101,34,149.99,12,2
+102,28,89.99,24,0
+103,45,299.99,6,5
+104,52,49.99,48,1
+105,31,199.99,18,3

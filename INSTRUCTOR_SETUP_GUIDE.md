@@ -31,10 +31,19 @@ mlops-on-aws/
 │   │       └── (empty - for student outputs)
 │   ├── lab2-feature-store/
 │   │   ├── LAB_OVERVIEW.md
+│   │   ├── data/
+│   │   │   └── sample_customers.csv
 │   │   ├── infrastructure/
-│   │   │   └── (Terraform files)
+│   │   │   ├── main.tf
+│   │   │   ├── providers.tf
+│   │   │   ├── variables.tf
+│   │   │   └── terraform.tfvars.example
 │   │   └── scripts/
-│   │       └── (Python scripts)
+│   │       ├── create_features.py
+│   │       ├── ingest_data.py
+│   │       ├── retrieve_features.py
+│   │       ├── query_offline.py
+│   │       └── train_model.py
 │   ├── lab3-tuning/
 │   │   └── LAB_OVERVIEW.md
 │   ├── lab4-registry/
@@ -57,8 +66,10 @@ mlops-on-aws/
 │   └── utils/
 │       └── (shared Python utilities)
 └── solutions/
-    └── lab1/
-        └── LAB1_SOLUTION_REFERENCE.md
+    ├── lab1/
+    │   └── LAB1_SOLUTION_REFERENCE.md
+    └── lab2/
+        └── LAB2_SOLUTION_REFERENCE.md
 ```
 
 ---
