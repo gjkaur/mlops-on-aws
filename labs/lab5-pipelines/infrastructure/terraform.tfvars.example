@@ -1,0 +1,2 @@
+# Copy to terraform.tfvars and replace with account ID from Lab 00
+aws_account_id = "<your-account-id>"

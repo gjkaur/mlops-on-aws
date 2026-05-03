@@ -86,7 +86,23 @@ mlops-on-aws/
 │   │       ├── train.py
 │   │       └── train_model.py
 │   ├── lab5-pipelines/
-│   │   └── LAB_OVERVIEW.md
+│   │   ├── INSTRUCTOR_LAB_GUIDE.md
+│   │   ├── LAB_OVERVIEW.md
+│   │   ├── README.md
+│   │   ├── infrastructure/
+│   │   │   ├── main.tf
+│   │   │   ├── providers.tf
+│   │   │   ├── variables.tf
+│   │   │   └── terraform.tfvars.example
+│   │   ├── notebooks/
+│   │   │   └── pipeline_analysis.ipynb
+│   │   └── scripts/
+│   │       ├── evaluate.py
+│   │       ├── pipeline_definition.py
+│   │       ├── preprocess.py
+│   │       ├── run_pipeline.py
+│   │       ├── train.py
+│   │       └── trigger_setup.py
 │   ├── lab6-deployment/
 │   │   └── LAB_OVERVIEW.md
 │   ├── lab7-monitoring/
@@ -109,9 +125,12 @@ mlops-on-aws/
     │   └── LAB2_SOLUTION_REFERENCE.md
     ├── lab3/
     │   └── LAB3_SOLUTION_REFERENCE.md
-    └── lab4/
-        └── LAB4_SOLUTION_REFERENCE.md
+    ├── lab4/
+    │   └── LAB4_SOLUTION_REFERENCE.md
+    ├── lab5/
+    │   └── LAB5_SOLUTION_REFERENCE.md
 ```
+
 
 ---
 
