@@ -23,8 +23,11 @@ mlops-on-aws/
 │   ├── lab4-registry/
 │   │   ├── LAB4_PARTICIPANT_INDEX.md
 │   │   └── PARTICIPANT_LAB_GUIDE.md
-│   └── lab5-pipelines/
-│       ├── LAB5_PARTICIPANT_INDEX.md
+│   ├── lab5-pipelines/
+│   │   ├── LAB5_PARTICIPANT_INDEX.md
+│   │   └── PARTICIPANT_LAB_GUIDE.md
+│   └── lab6-deployment/
+│       ├── LAB6_PARTICIPANT_INDEX.md
 │       └── PARTICIPANT_LAB_GUIDE.md
 ├── labs/
 │   ├── lab0-environment-setup/

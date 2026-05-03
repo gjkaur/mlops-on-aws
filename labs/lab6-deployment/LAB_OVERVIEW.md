@@ -16,6 +16,11 @@ Prerequisites:
 - [**Lab 00**](../../participant/lab0-environment-setup/PARTICIPANT_LAB_GUIDE.md) (AWS CLI)  
 - Repo root **`pip install -r requirements.txt`**
 
+## Participant walkthrough
+
+- **[participant/lab6-deployment/PARTICIPANT_LAB_GUIDE.md](../../participant/lab6-deployment/PARTICIPANT_LAB_GUIDE.md)**  
+- **[participant/lab6-deployment/LAB6_PARTICIPANT_INDEX.md](../../participant/lab6-deployment/LAB6_PARTICIPANT_INDEX.md)**  
+
 ## Repository layout (`labs/lab6-deployment/`)
 
 | Path | Purpose |

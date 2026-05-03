@@ -9,6 +9,6 @@ Hands-on walkthrough documents for labs live here **next to `labs/`** (not insid
 | Lab 2 — Feature Store pipeline | [`PARTICIPANT_LAB_GUIDE.md`](lab2-feature-store/PARTICIPANT_LAB_GUIDE.md) | [`LAB2_PARTICIPANT_INDEX.md`](lab2-feature-store/LAB2_PARTICIPANT_INDEX.md) |
 | Lab 3 — Hyperparameter tuning | [`PARTICIPANT_LAB_GUIDE.md`](lab3-tuning/PARTICIPANT_LAB_GUIDE.md) | [`LAB3_PARTICIPANT_INDEX.md`](lab3-tuning/LAB3_PARTICIPANT_INDEX.md) |
 | Lab 4 — Model registry & governance | [`PARTICIPANT_LAB_GUIDE.md`](lab4-registry/PARTICIPANT_LAB_GUIDE.md) | [`LAB4_PARTICIPANT_INDEX.md`](lab4-registry/LAB4_PARTICIPANT_INDEX.md) |
-| Lab 5 — SageMaker Pipelines (CI/CD) | [`PARTICIPANT_LAB_GUIDE.md`](lab5-pipelines/PARTICIPANT_LAB_GUIDE.md) | [`LAB5_PARTICIPANT_INDEX.md`](lab5-pipelines/LAB5_PARTICIPANT_INDEX.md) |
+| Lab 6 — Deployment & serving | [`PARTICIPANT_LAB_GUIDE.md`](lab6-deployment/PARTICIPANT_LAB_GUIDE.md) | [`LAB6_PARTICIPANT_INDEX.md`](lab6-deployment/LAB6_PARTICIPANT_INDEX.md) |
 
 Lab code and Terraform remain under [`labs/`](../labs/).
