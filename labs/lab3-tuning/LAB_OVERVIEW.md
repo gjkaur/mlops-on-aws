@@ -14,6 +14,11 @@ Module **3 – Experimentation** · **`us-east-1`** · about **90 minutes**
 - [Lab 00](../../participant/lab0-environment-setup/PARTICIPANT_LAB_GUIDE.md) (AWS CLI)  
 - Repo root: `pip install -r requirements.txt` (`matplotlib`, `sagemaker`, `scikit-learn`, …)
 
+## Participant lab guide
+
+- **[PARTICIPANT_LAB_GUIDE.md](../../participant/lab3-tuning/PARTICIPANT_LAB_GUIDE.md)** — step-by-step  
+- **[LAB3_PARTICIPANT_INDEX.md](../../participant/lab3-tuning/LAB3_PARTICIPANT_INDEX.md)** — folder index  
+
 ## Layout
 
 | Path | Purpose |
