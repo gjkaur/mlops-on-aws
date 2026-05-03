@@ -17,7 +17,7 @@
 
 ## Participant lab guide
 
-**Full instructions:** [`participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md`](../../participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md) — see also [`participant/README.md`](../../participant/README.md).
+**Full instructions:** [`participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md`](../../participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md) — participant index [`participant/PARTICIPANT_DOCUMENTATION_INDEX.md`](../../participant/PARTICIPANT_DOCUMENTATION_INDEX.md), Lab 1 index [`participant/lab1-first-training/LAB1_PARTICIPANT_INDEX.md`](../../participant/lab1-first-training/LAB1_PARTICIPANT_INDEX.md).
 
 ## Step-by-Step Instructions (summary)
 

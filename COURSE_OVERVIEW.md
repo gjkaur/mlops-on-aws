@@ -37,14 +37,14 @@ pip install -r requirements.txt
 
 ## Lab Navigation
 
-Each lab folder contains:
+Each lab folder typically contains:
 
-- `infrastructure/` – Terraform code for AWS resources
-- `scripts/` – Python scripts for training, deployment, monitoring
-- `README.md` – Lab index
+- `infrastructure/` – Terraform code for AWS resources  
+- `scripts/` – Python scripts for training, deployment, monitoring  
+- **`LAB_OVERVIEW.md`** – Short lab summary and links  
 
-Participant walkthroughs live at the **repository root** in [`participant/`](participant/) (not inside each lab folder).
+Participant walkthroughs: start at [`participant/PARTICIPANT_DOCUMENTATION_INDEX.md`](participant/PARTICIPANT_DOCUMENTATION_INDEX.md) (these live at repo root—not inside each lab folder).
 
-Start with [Lab 1](labs/lab1-first-training/README.md). The participant walkthrough is [**Lab 1 — participant guide**](participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md).
+Start with [**Lab 1 overview**](labs/lab1-first-training/LAB_OVERVIEW.md). The full participant walkthrough is [**Lab 1 — participant guide**](participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md).
 
 Instructor scaffolding steps (repo layout, file templates): [`INSTRUCTOR_SETUP_GUIDE.md`](INSTRUCTOR_SETUP_GUIDE.md).

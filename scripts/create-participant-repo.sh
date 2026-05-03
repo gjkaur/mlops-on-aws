@@ -5,7 +5,7 @@
 cp -r mlops-on-aws mlops-on-aws-participant
 rm -rf mlops-on-aws-participant/solutions
 
-# Remove any instructor notes from READMEs
+# Remove any instructor notes from Markdown guides (LAB_OVERVIEW, etc.)
 find mlops-on-aws-participant -name "*.md" -exec sed -i '/INSTRUCTOR NOTE/d' {} \;
 
 # Create archive

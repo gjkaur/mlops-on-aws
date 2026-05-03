@@ -7,13 +7,13 @@ mlops-on-aws/
 ├── README.md
 ├── requirements.txt
 ├── participant/
-│   ├── README.md
+│   ├── PARTICIPANT_DOCUMENTATION_INDEX.md
 │   └── lab1-first-training/
-│       ├── README.md
+│       ├── LAB1_PARTICIPANT_INDEX.md
 │       └── PARTICIPANT_LAB_GUIDE.md
 ├── labs/
 │   ├── lab1-first-training/
-│   │   ├── README.md
+│   │   ├── LAB_OVERVIEW.md
 │   │   ├── infrastructure/
 │   │   │   ├── main.tf
 │   │   │   ├── providers.tf
@@ -25,33 +25,42 @@ mlops-on-aws/
 │   │   └── outputs/
 │   │       └── (empty - for student outputs)
 │   ├── lab2-feature-store/
-│   │   ├── README.md
+│   │   ├── LAB_OVERVIEW.md
 │   │   ├── infrastructure/
 │   │   │   └── (Terraform files)
 │   │   └── scripts/
 │   │       └── (Python scripts)
 │   ├── lab3-tuning/
+│   │   └── LAB_OVERVIEW.md
 │   ├── lab4-registry/
+│   │   └── LAB_OVERVIEW.md
 │   ├── lab5-pipelines/
+│   │   └── LAB_OVERVIEW.md
 │   ├── lab6-deployment/
+│   │   └── LAB_OVERVIEW.md
 │   ├── lab7-monitoring/
+│   │   └── LAB_OVERVIEW.md
 │   ├── lab8-capstone/
+│   │   └── LAB_OVERVIEW.md
 │   ├── lab9-advanced-inference/
+│   │   └── LAB_OVERVIEW.md
 │   └── lab10-enterprise/
+│       └── LAB_OVERVIEW.md
 ├── shared/
 │   ├── modules/
 │   │   └── (reusable Terraform modules)
 │   └── utils/
 │       └── (shared Python utilities)
 └── solutions/
-    └── (completed lab solutions for instructors)
+    └── lab1/
+        └── LAB1_SOLUTION_REFERENCE.md
 ```
 
 ---
 
 ## Step 1: Create the Repository Root Files
 
-### README.md
+### README.md (repository entry page)
 
 ```markdown
 # MLOps on AWS – Course Labs
@@ -93,9 +102,9 @@ pip install -r requirements.txt
 Each lab folder contains:
 - `infrastructure/` – Terraform code for AWS resources
 - `scripts/` – Python scripts for training, deployment, monitoring
-- `README.md` – Lab instructions
+- `LAB_OVERVIEW.md` – Lab summary and links
 
-Start with [Lab 1](labs/lab1-first-training/README.md)
+Start with [Lab 1](labs/lab1-first-training/LAB_OVERVIEW.md)
 ```
 
 ### requirements.txt
@@ -116,7 +125,7 @@ pyyaml>=6.0
 
 ## Step 2: Lab 1 – First SageMaker Training Job
 
-### labs/lab1-first-training/README.md
+### labs/lab1-first-training/LAB_OVERVIEW.md
 
 ```markdown
 # Lab 1: First SageMaker Training Job
@@ -138,8 +147,7 @@ pyyaml>=6.0
 
 ## Step-by-Step Instructions
 
-See the participant lab guide for detailed steps.
-```
+Participants: see **`participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md`** (folder index **`LAB1_PARTICIPANT_INDEX.md`**).
 
 ### labs/lab1-first-training/infrastructure/providers.tf
 
@@ -446,7 +454,7 @@ def download_model(uri, local_path="./model.tar.gz", region="us-east-1"):
 
 ## Step 4: Solutions Folder (Instructor Only)
 
-### solutions/lab1/README.md
+### solutions/lab1/LAB1_SOLUTION_REFERENCE.md
 
 ```markdown
 # Lab 1 Solution (Instructor Reference)
@@ -488,7 +496,7 @@ sagemaker_role_name = "SageMakerExecutionRole-a1b2c3d4"
 Once the repository is ready, you can generate **participant versions** by:
 
 1. **Removing solution files** from the participant view
-2. **Keeping README.md** with instructions
+2. **Keeping lab `LAB_OVERVIEW.md` files and the root `README.md`** with instructions
 3. **Keeping all code files** (students should not write code from scratch)
 
 ### Participant Version Script (for your reference)
@@ -501,7 +509,7 @@ Once the repository is ready, you can generate **participant versions** by:
 cp -r mlops-on-aws mlops-on-aws-participant
 rm -rf mlops-on-aws-participant/solutions
 
-# Remove any instructor notes from READMEs
+# Remove any instructor notes from Markdown guides
 find mlops-on-aws-participant -name "*.md" -exec sed -i '/INSTRUCTOR NOTE/d' {} \;
 
 # Create archive
