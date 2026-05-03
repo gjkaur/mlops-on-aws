@@ -48,7 +48,21 @@ mlops-on-aws/
 │   │       ├── query_offline.py
 │   │       └── train_model.py
 │   ├── lab3-tuning/
-│   │   └── LAB_OVERVIEW.md
+│   │   ├── LAB_OVERVIEW.md
+│   │   ├── infrastructure/
+│   │   │   ├── main.tf
+│   │   │   ├── providers.tf
+│   │   │   ├── variables.tf
+│   │   │   └── terraform.tfvars.example
+│   │   ├── notebooks/
+│   │   │   └── experiment_analysis.ipynb
+│   │   └── scripts/
+│   │       ├── analyze_results.py
+│   │       ├── baseline.py
+│   │       ├── deploy_best.py
+│   │       ├── predict.py
+│   │       ├── train.py
+│   │       └── tuning_config.py
 │   ├── lab4-registry/
 │   │   └── LAB_OVERVIEW.md
 │   ├── lab5-pipelines/
@@ -71,8 +85,10 @@ mlops-on-aws/
 └── solutions/
     ├── lab1/
     │   └── LAB1_SOLUTION_REFERENCE.md
-    └── lab2/
-        └── LAB2_SOLUTION_REFERENCE.md
+    ├── lab2/
+    │   └── LAB2_SOLUTION_REFERENCE.md
+    └── lab3/
+        └── LAB3_SOLUTION_REFERENCE.md
 ```
 
 ---
