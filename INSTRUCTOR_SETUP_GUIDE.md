@@ -26,8 +26,20 @@ mlops-on-aws/
 │   ├── lab5-pipelines/
 │   │   ├── LAB5_PARTICIPANT_INDEX.md
 │   │   └── PARTICIPANT_LAB_GUIDE.md
-│   └── lab6-deployment/
-│       ├── LAB6_PARTICIPANT_INDEX.md
+│   ├── lab6-deployment/
+│   │   ├── LAB6_PARTICIPANT_INDEX.md
+│   │   └── PARTICIPANT_LAB_GUIDE.md
+│   ├── lab7-monitoring/
+│   │   ├── LAB7_PARTICIPANT_INDEX.md
+│   │   └── PARTICIPANT_LAB_GUIDE.md
+│   ├── lab8-capstone/
+│   │   ├── LAB8_PARTICIPANT_INDEX.md
+│   │   └── PARTICIPANT_LAB_GUIDE.md
+│   ├── lab9-advanced-inference/
+│   │   ├── LAB9_PARTICIPANT_INDEX.md
+│   │   └── PARTICIPANT_LAB_GUIDE.md
+│   └── lab10-enterprise/
+│       ├── LAB10_PARTICIPANT_INDEX.md
 │       └── PARTICIPANT_LAB_GUIDE.md
 ├── labs/
 │   ├── lab0-environment-setup/
@@ -130,13 +142,89 @@ mlops-on-aws/
 │   │       ├── train.py
 │   │       └── train_model.py
 │   ├── lab7-monitoring/
-│   │   └── LAB_OVERVIEW.md
+│   │   ├── INSTRUCTOR_LAB_GUIDE.md
+│   │   ├── LAB_OVERVIEW.md
+│   │   ├── README.md
+│   │   ├── infrastructure/
+│   │   │   ├── main.tf
+│   │   │   ├── providers.tf
+│   │   │   ├── variables.tf
+│   │   │   └── terraform.tfvars.example
+│   │   ├── notebooks/
+│   │   │   └── monitoring_analysis.ipynb
+│   │   └── scripts/
+│   │       ├── cleanup.py
+│   │       ├── create_monitoring_schedule.py
+│   │       ├── deploy_with_capture.py
+│   │       ├── generate_baseline.py
+│   │       ├── inference.py
+│   │       ├── setup_alerts.py
+│   │       ├── simulate_drift.py
+│   │       ├── test_endpoint.py
+│   │       ├── train.py
+│   │       └── train_model.py
 │   ├── lab8-capstone/
-│   │   └── LAB_OVERVIEW.md
+│   │   ├── INSTRUCTOR_LAB_GUIDE.md
+│   │   ├── LAB_OVERVIEW.md
+│   │   ├── README.md
+│   │   ├── data/
+│   │   │   └── sample_churn_data.csv
+│   │   ├── infrastructure/
+│   │   │   ├── main.tf
+│   │   │   ├── providers.tf
+│   │   │   ├── variables.tf
+│   │   │   └── terraform.tfvars.example
+│   │   ├── notebooks/
+│   │   │   └── capstone_analysis.ipynb
+│   │   └── scripts/
+│   │       ├── approve_model_package.py
+│   │       ├── cleanup.py
+│   │       ├── deploy_canary.py
+│   │       ├── evaluate.py
+│   │       ├── inference.py
+│   │       ├── monitoring_setup.py
+│   │       ├── pipeline_definition.py
+│   │       ├── preprocess.py
+│   │       ├── run_pipeline.py
+│   │       ├── simulate_workflow.py
+│   │       ├── train.py
+│   │       └── trigger_retraining.py
 │   ├── lab9-advanced-inference/
-│   │   └── LAB_OVERVIEW.md
+│   │   ├── INSTRUCTOR_LAB_GUIDE.md
+│   │   ├── LAB_OVERVIEW.md
+│   │   ├── README.md
+│   │   ├── data/
+│   │   │   └── sample_batch_data.csv
+│   │   ├── infrastructure/
+│   │   │   ├── main.tf
+│   │   │   ├── providers.tf
+│   │   │   ├── variables.tf
+│   │   │   └── terraform.tfvars.example
+│   │   └── scripts/
+│   │       ├── cleanup.py
+│   │       ├── compare_costs.py
+│   │       ├── deploy_async.py
+│   │       ├── deploy_mme.py
+│   │       ├── deploy_serverless.py
+│   │       ├── inference.py
+│   │       ├── run_batch_transform.py
+│   │       ├── test_endpoints.py
+│   │       └── train_models.py
 │   └── lab10-enterprise/
-│       └── LAB_OVERVIEW.md
+│       ├── INSTRUCTOR_LAB_GUIDE.md
+│       ├── LAB_OVERVIEW.md
+│       ├── README.md
+│       └── project-template/
+│           ├── README.md
+│           ├── cloudformation/
+│           │   ├── README.md
+│           │   └── companion-demonstration.yaml
+│           └── seed-code/
+│               ├── README.md
+│               ├── buildspec.sample.yml
+│               ├── requirements.txt
+│               └── tests/
+│                   └── test_smoke.py
 ├── shared/
 │   ├── modules/
 │   │   └── (reusable Terraform modules)
@@ -155,6 +243,14 @@ mlops-on-aws/
     │   └── LAB5_SOLUTION_REFERENCE.md
     ├── lab6/
     │   └── LAB6_SOLUTION_REFERENCE.md
+    ├── lab7/
+    │   └── LAB7_SOLUTION_REFERENCE.md
+    ├── lab8/
+    │   └── LAB8_SOLUTION_REFERENCE.md
+    ├── lab9/
+    │   └── LAB9_SOLUTION_REFERENCE.md
+    ├── lab10/
+    │   └── LAB10_SOLUTION_REFERENCE.md
 ```
 
 

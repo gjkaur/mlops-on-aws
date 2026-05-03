@@ -13,8 +13,16 @@ Hands-on labs, Terraform, and SageMaker workflows for **Practical MLOps on AWS**
 | [Lab 4 — participant guide](participant/lab4-registry/PARTICIPANT_LAB_GUIDE.md) | Students (Lab 4) | Model registry & governance walkthrough |
 | [Lab 5 — participant guide](participant/lab5-pipelines/PARTICIPANT_LAB_GUIDE.md) | Students (Lab 5) | SageMaker Pipelines (CI/CD) walkthrough |
 | [Lab 6 — participant guide](participant/lab6-deployment/PARTICIPANT_LAB_GUIDE.md) | Students (Lab 6) | Model deployment & serving walkthrough |
+| [Lab 7 — participant guide](participant/lab7-monitoring/PARTICIPANT_LAB_GUIDE.md) | Students (Lab 7) | Model monitoring & drift walkthrough |
+| [Lab 8 — participant guide](participant/lab8-capstone/PARTICIPANT_LAB_GUIDE.md) | Students (Lab 8) | End-to-end capstone walkthrough |
+| [Lab 9 — participant guide](participant/lab9-advanced-inference/PARTICIPANT_LAB_GUIDE.md) | Students (Lab 9) | Serverless, async, MME, batch inference walkthrough |
+| [Lab 10 — participant guide](participant/lab10-enterprise/PARTICIPANT_LAB_GUIDE.md) | Students (Lab 10) | SageMaker Projects / enterprise MLOps walkthrough |
 | [INSTRUCTOR_SETUP_GUIDE.md](INSTRUCTOR_SETUP_GUIDE.md) | Instructors & maintainers | Repository structure, scaffolding, packaging |
 | [**Lab 5 — Pipelines (overview)**](labs/lab5-pipelines/LAB_OVERVIEW.md) | Instructors | CI/CD SageMaker Pipeline summary (solution: [`solutions/lab5/LAB5_SOLUTION_REFERENCE.md`](solutions/lab5/LAB5_SOLUTION_REFERENCE.md)) |
 | [**Lab 6 — Deployment (overview)**](labs/lab6-deployment/LAB_OVERVIEW.md) | Instructors | Endpoints, auto-scaling, canary routing (solution: [`solutions/lab6/LAB6_SOLUTION_REFERENCE.md`](solutions/lab6/LAB6_SOLUTION_REFERENCE.md)) |
+| [**Lab 7 — Monitoring (overview)**](labs/lab7-monitoring/LAB_OVERVIEW.md) | Instructors | Data capture, drift baselines, Model Monitor schedules, SNS (solution: [`solutions/lab7/LAB7_SOLUTION_REFERENCE.md`](solutions/lab7/LAB7_SOLUTION_REFERENCE.md)) |
+| [**Lab 8 — Capstone (overview)**](labs/lab8-capstone/LAB_OVERVIEW.md) | Instructors | Pipeline → registry → canary capture → DQ → EventBridge (solution: [`solutions/lab8/LAB8_SOLUTION_REFERENCE.md`](solutions/lab8/LAB8_SOLUTION_REFERENCE.md)) |
+| [**Lab 9 — Advanced inference (overview)**](labs/lab9-advanced-inference/LAB_OVERVIEW.md) | Instructors | Serverless vs async vs MME vs batch (solution: [`solutions/lab9/LAB9_SOLUTION_REFERENCE.md`](solutions/lab9/LAB9_SOLUTION_REFERENCE.md)) |
+| [**Lab 10 — Enterprise / Projects (overview)**](labs/lab10-enterprise/LAB_OVERVIEW.md) | Instructors | SageMaker Projects, CI/CD scaffolding, governance (solution: [`solutions/lab10/LAB10_SOLUTION_REFERENCE.md`](solutions/lab10/LAB10_SOLUTION_REFERENCE.md)) |
 
 Public clone URL: https://github.com/gjkaur/mlops-on-aws.git
