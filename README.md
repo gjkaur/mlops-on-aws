@@ -14,5 +14,6 @@ Hands-on labs, Terraform, and SageMaker workflows for **Practical MLOps on AWS**
 | [Lab 5 — participant guide](participant/lab5-pipelines/PARTICIPANT_LAB_GUIDE.md) | Students (Lab 5) | SageMaker Pipelines (CI/CD) walkthrough |
 | [INSTRUCTOR_SETUP_GUIDE.md](INSTRUCTOR_SETUP_GUIDE.md) | Instructors & maintainers | Repository structure, scaffolding, packaging |
 | [**Lab 5 — Pipelines (overview)**](labs/lab5-pipelines/LAB_OVERVIEW.md) | Instructors | CI/CD SageMaker Pipeline summary (solution: [`solutions/lab5/LAB5_SOLUTION_REFERENCE.md`](solutions/lab5/LAB5_SOLUTION_REFERENCE.md)) |
+| [**Lab 6 — Deployment (overview)**](labs/lab6-deployment/LAB_OVERVIEW.md) | Instructors | Endpoints, auto-scaling, canary routing (solution: [`solutions/lab6/LAB6_SOLUTION_REFERENCE.md`](solutions/lab6/LAB6_SOLUTION_REFERENCE.md)) |
 
 Public clone URL: https://github.com/gjkaur/mlops-on-aws.git
