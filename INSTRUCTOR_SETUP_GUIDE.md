@@ -67,7 +67,21 @@ mlops-on-aws/
 │   │       ├── train.py
 │   │       └── tuning_config.py
 │   ├── lab4-registry/
-│   │   └── LAB_OVERVIEW.md
+│   │   ├── LAB_OVERVIEW.md
+│   │   ├── infrastructure/
+│   │   │   ├── main.tf
+│   │   │   ├── providers.tf
+│   │   │   ├── variables.tf
+│   │   │   └── terraform.tfvars.example
+│   │   ├── notebooks/
+│   │   │   └── registry_explorer.ipynb
+│   │   └── scripts/
+│   │       ├── approve_model.py
+│   │       ├── deploy_from_registry.py
+│   │       ├── list_models.py
+│   │       ├── register_model.py
+│   │       ├── train.py
+│   │       └── train_model.py
 │   ├── lab5-pipelines/
 │   │   └── LAB_OVERVIEW.md
 │   ├── lab6-deployment/
@@ -90,8 +104,10 @@ mlops-on-aws/
     │   └── LAB1_SOLUTION_REFERENCE.md
     ├── lab2/
     │   └── LAB2_SOLUTION_REFERENCE.md
-    └── lab3/
-        └── LAB3_SOLUTION_REFERENCE.md
+    ├── lab3/
+    │   └── LAB3_SOLUTION_REFERENCE.md
+    └── lab4/
+        └── LAB4_SOLUTION_REFERENCE.md
 ```
 
 ---
