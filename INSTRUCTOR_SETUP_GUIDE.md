@@ -17,8 +17,11 @@ mlops-on-aws/
 │   ├── lab2-feature-store/
 │   │   ├── LAB2_PARTICIPANT_INDEX.md
 │   │   └── PARTICIPANT_LAB_GUIDE.md
-│   └── lab3-tuning/
-│       ├── LAB3_PARTICIPANT_INDEX.md
+│   ├── lab3-tuning/
+│   │   ├── LAB3_PARTICIPANT_INDEX.md
+│   │   └── PARTICIPANT_LAB_GUIDE.md
+│   └── lab4-registry/
+│       ├── LAB4_PARTICIPANT_INDEX.md
 │       └── PARTICIPANT_LAB_GUIDE.md
 ├── labs/
 │   ├── lab0-environment-setup/

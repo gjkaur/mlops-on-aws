@@ -15,6 +15,11 @@ Module **4 – Governance** · **`us-east-1`** · about **75 minutes**
 - [Lab 00](../../participant/lab0-environment-setup/PARTICIPANT_LAB_GUIDE.md) (AWS CLI)  
 - `pip install -r requirements.txt` at repo root (`boto3`, `sagemaker`, `pandas`, `scikit-learn`, …)
 
+## Participant walkthrough
+
+- **[participant/lab4-registry/PARTICIPANT_LAB_GUIDE.md](../../participant/lab4-registry/PARTICIPANT_LAB_GUIDE.md)** — step-by-step for students  
+- **[participant/lab4-registry/LAB4_PARTICIPANT_INDEX.md](../../participant/lab4-registry/LAB4_PARTICIPANT_INDEX.md)** — folder cheat sheet  
+
 ## Layout
 
 | Path | Purpose |

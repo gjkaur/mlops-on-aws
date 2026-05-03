@@ -48,6 +48,6 @@ Participant walkthroughs: start at [`participant/PARTICIPANT_DOCUMENTATION_INDEX
 
 Complete **[Lab 00 — participant guide](participant/lab0-environment-setup/PARTICIPANT_LAB_GUIDE.md)** first so your AWS CLI and account ID are ready.
 
-Then open [**Lab 0 overview**](labs/lab0-environment-setup/LAB_OVERVIEW.md), [**Lab 1 overview**](labs/lab1-first-training/LAB_OVERVIEW.md) with [**Lab 1 participant guide**](participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md); [**Lab 2 overview**](labs/lab2-feature-store/LAB_OVERVIEW.md) with [**Lab 2 participant guide**](participant/lab2-feature-store/PARTICIPANT_LAB_GUIDE.md); and [**Lab 3 overview**](labs/lab3-tuning/LAB_OVERVIEW.md) with [**Lab 3 participant guide**](participant/lab3-tuning/PARTICIPANT_LAB_GUIDE.md).
+Then open [**Lab 0 overview**](labs/lab0-environment-setup/LAB_OVERVIEW.md), [**Lab 1 overview**](labs/lab1-first-training/LAB_OVERVIEW.md) with [**Lab 1 participant guide**](participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md); [**Lab 2 overview**](labs/lab2-feature-store/LAB_OVERVIEW.md) with [**Lab 2 participant guide**](participant/lab2-feature-store/PARTICIPANT_LAB_GUIDE.md); [**Lab 3 overview**](labs/lab3-tuning/LAB_OVERVIEW.md) with [**Lab 3 participant guide**](participant/lab3-tuning/PARTICIPANT_LAB_GUIDE.md); and [**Lab 4 overview**](labs/lab4-registry/LAB_OVERVIEW.md) with [**Lab 4 participant guide**](participant/lab4-registry/PARTICIPANT_LAB_GUIDE.md).
 
 Instructor scaffolding steps (repo layout, file templates): [`INSTRUCTOR_SETUP_GUIDE.md`](INSTRUCTOR_SETUP_GUIDE.md).
