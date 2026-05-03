@@ -17,7 +17,7 @@
 
 ## Participant lab guide
 
-**Full instructions:** [`participant/PARTICIPANT_LAB_GUIDE.md`](participant/PARTICIPANT_LAB_GUIDE.md) (also see [`participant/README.md`](participant/README.md))
+**Full instructions:** [`participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md`](../../participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md) — see also [`participant/README.md`](../../participant/README.md).
 
 ## Step-by-Step Instructions (summary)
 

@@ -6,6 +6,11 @@
 mlops-on-aws/
 ├── README.md
 ├── requirements.txt
+├── participant/
+│   ├── README.md
+│   └── lab1-first-training/
+│       ├── README.md
+│       └── PARTICIPANT_LAB_GUIDE.md
 ├── labs/
 │   ├── lab1-first-training/
 │   │   ├── README.md

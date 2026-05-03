@@ -8,6 +8,7 @@ This repository contains all code and infrastructure definitions for the Practic
 
 | Folder | Purpose |
 |--------|---------|
+| `participant/` | Participant-facing lab walkthroughs (Markdown guides) |
 | `labs/` | Lab-specific code and infrastructure |
 | `shared/` | Reusable modules and utilities |
 | `solutions/` | Completed solutions (instructors only) |
@@ -40,9 +41,10 @@ Each lab folder contains:
 
 - `infrastructure/` – Terraform code for AWS resources
 - `scripts/` – Python scripts for training, deployment, monitoring
-- `README.md` – Lab index  
-- `participant/` – Participant lab guides (Lab 1: full walkthrough)
+- `README.md` – Lab index
 
-Start with [Lab 1](labs/lab1-first-training/README.md). The participant walkthrough is [**Lab 1 — participant guide**](labs/lab1-first-training/participant/PARTICIPANT_LAB_GUIDE.md).
+Participant walkthroughs live at the **repository root** in [`participant/`](participant/) (not inside each lab folder).
+
+Start with [Lab 1](labs/lab1-first-training/README.md). The participant walkthrough is [**Lab 1 — participant guide**](participant/lab1-first-training/PARTICIPANT_LAB_GUIDE.md).
 
 Instructor scaffolding steps (repo layout, file templates): [`INSTRUCTOR_SETUP_GUIDE.md`](INSTRUCTOR_SETUP_GUIDE.md).
